@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AddressPickerView">
+        <attr name="tabIndicatorHeight" format="dimension"/>
+        <attr name="tabIndicatorColor" format="color"/>
+        <attr name="tabTextAppearance" format="reference"/>
+    </declare-styleable>
+</resources>

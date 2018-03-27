@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_address"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?android:selectableItemBackground"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/selector_tv_select"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:id="@+id/iv_address"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iv_check_24dp"
+        android:visibility="gone"/>
+</LinearLayout>
