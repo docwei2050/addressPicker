@@ -322,5 +322,12 @@ public class AddressPickerView extends LinearLayout implements View.OnClickListe
         void onSelectAddress(String address);
     }
 
-
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        //需要手动退出handlerThread
+        if(mAddressProcessor!=null){
+            mAddressProcessor.quit();
+        }
+    }
 }
